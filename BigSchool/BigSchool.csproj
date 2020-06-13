@@ -292,6 +292,7 @@
     <Content Include="Views\Courses\FollowNotification.cshtml" />
     <Content Include="Views\Shared\View.cshtml" />
     <Content Include="Views\Shared\View1.cshtml" />
+    <Content Include="Views\View.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
