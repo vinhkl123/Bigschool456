@@ -288,6 +288,7 @@
     <Content Include="Views\Courses\Mine.cshtml" />
     <Content Include="Views\Courses\FollowingMeList.cshtml" />
     <Content Include="Views\Courses\FollowNotification.cshtml" />
+    <Content Include="Views\Shared\View.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
