@@ -229,6 +229,7 @@
     <Compile Include="ViewModels\FollowNotificationViewModel.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\ValidTime.cs" />
+    <Compile Include="Views\DefaultController.cs" />
     <Compile Include="Views\Shared\DefaultController.cs" />
   </ItemGroup>
   <ItemGroup>
