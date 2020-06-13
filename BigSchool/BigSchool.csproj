@@ -176,7 +176,6 @@
     <Compile Include="Controllers\FollowingsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DTO\AttendanceDto.cs" />
-    <Compile Include="DTO\DefaultController.cs" />
     <Compile Include="DTO\FollowingDto.cs" />
     <Compile Include="DTO\UnFollowDto.cs" />
     <Compile Include="Global.asax.cs">
