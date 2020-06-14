@@ -10,10 +10,10 @@
             <li>
                 <div class="date">
                     <div class="month">
-                        @course.DateTime.ToString("MM")
+                        @course.DateTime.ToString(" MM ")
                     </div>
                     <div class="day">
-                        @course.DateTime.ToString("dd")
+                        @course.DateTime.ToString(" DD ")
                     </div>
                 </div>
                 <div class="details">
@@ -36,7 +36,7 @@
                         @course.Category.Name
                         @if (Model.ShowAction)
                         {
-                            if (Model.Attendances.Any(x => x.CourseId == course.Id))
+                            if (Model. Attendances.Any(x => x.CourseId == course.Id))
                             {
                                 <button data-course-id="@course.Id" class="btn btn-sm btn-info">Going?</button>
                             }
