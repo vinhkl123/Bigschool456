@@ -175,9 +175,9 @@
     <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\FollowingsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="DTO\AttendanceDto.cs" />
-    <Compile Include="DTO\FollowingDto.cs" />
-    <Compile Include="DTO\UnFollowDto.cs" />
+    <Compile Include="DTOv\AttendanceDto.cs" />
+    <Compile Include="DTOv\FollowingDto.cs" />
+    <Compile Include="DTOv\UnFollowDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
