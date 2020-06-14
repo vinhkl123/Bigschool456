@@ -26,7 +26,7 @@ namespace BigSchool.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Course> Courses { get; set; }
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set;}
         public DbSet<Attendance> Attendances { get; set; }
         public DbSet<Following> Followings { get; set; }
         public DbSet<FollowingNotification> FollowingNotifications { get; set; }
@@ -47,7 +47,7 @@ namespace BigSchool.Models
                 .WithRequired(f => f.Followee)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<ApplicationUser>()
+            modelBuilder.Entity<ApplicationUser>( )
                 .HasMany(u => u.Followees)
                 .WithRequired(f => f.Follower)
                 .WillCascadeOnDelete(false);
