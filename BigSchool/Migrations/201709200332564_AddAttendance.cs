@@ -24,11 +24,11 @@ namespace BigSchool.Migrations
         
         public override void Down()
         {
-            DropForeignKey("dbo.Attendances", "CourseId", "dbo.Courses");
+            DropForeignKey("dbo.Attendances", "CourseId" , "dbo.Courses");
             DropForeignKey("dbo.Attendances", "AttendeeId", "dbo.AspNetUsers");
             DropIndex("dbo.Attendances", new[] { "CourseId" });
             DropIndex("dbo.Attendances", new[] { "AttendeeId" });
-            DropTable("dbo.Attendances");
+            DropTable("dbo.Attendances" );
         }
     }
 }

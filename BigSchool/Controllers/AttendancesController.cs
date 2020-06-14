@@ -24,10 +24,10 @@ namespace BigSchool.Controllers
         {
             var userId = User.Identity.GetUserId();
             if (_dbContext.Attendances.Any(a => a.AttendeeId == userId && a.CourseId == attendanceDto.CourseId))
-                return BadRequest("The Attendance already exists!");
+                return BadRequest("The Attendan already exists !");
             var attendance = new Attendance
             {
-                CourseId= attendanceDto.CourseId,
+                CourseId= attendanceDto.CourseId ,
                 AttendeeId = User.Identity.GetUserId()
             };
 
