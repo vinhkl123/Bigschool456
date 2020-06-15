@@ -63,7 +63,7 @@
                     button
                         .removeClass("btn-default")
                         .addClass("btn-info")
-                        .text("Going");
+                        .text("Going (Đi theo)");
                 }).fail(function () {
                     alert("Something failed !!!" );
                 });
@@ -74,7 +74,7 @@
                 var button = $(e.target);
                 $.post("/api/followings", { FolloweeId: button.attr("data-user-id") }).done(function () {
                     button
-                        .text("Following");
+                        .text("Following (Theo dõi)");
                 }).fail(function () {
                     alert("Something failed !!!!!");
                 });
